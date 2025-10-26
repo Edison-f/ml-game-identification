@@ -1,12 +1,18 @@
 # Project Title - Predicting Video Game Genres
 
 ## Authors
-Angie, Edison Fuh
+Angie Avalos Joel, Edison Fuh
+
+---
 
 # Description of Question / Research Topic
 Can the genre of a video game be predicted by screenshots taken during gameplay? Do the contents of the screenshot change the likelihood of correct identification? What are some other contributing factors to incorrect classification? Are some genres easier to confuse with other genres? What are some of the easiest to identify genres?
 
+---
+
 # Project Outline / Plan
+
+---
 
 ## Data Collection Plan
 
@@ -15,8 +21,9 @@ For higher quality screenshots, I will self-capture data from my own game librar
 
 
 ### Angie
+I will help gather additional images from open datasets and online sources like Kaggle. I will organize the dataset structure (e.g., one folder per genre) and handle preprocessing: resizing, normalization, and train/test splits. If time allows, I'll implement basic data augmentation (rotations, brightness adjustments) to improve model robustness. 
 
-
+---
 
 ## Model Plans
 
@@ -25,5 +32,23 @@ Likely CNN, but maybe a new model introduced in class idk.
 
 
 ### Angie
+I will build and evaluate a CNN using PyTorch. I'll test different optimizers (Adam, SGD) and compare performance. I will also implement visualization tools to show sample predictions and analyze misclassifications.
 
+---
 
+## Project Timeline
+
+| Week #  | Task |
+|---------|------|
+| Week 9  | Finalize project idea & repo setup |
+| Week 10 | Data collection begins | 
+| Week 11 | Data preprocessing & cleaning | 
+| Week 12 | Model building & training | 
+| Week 13 | Model evaluation & visualization |
+| Week 14 | Write analysis notebook |
+| Week 15 | Finalize README, Model Card, and presentation slides |
+
+---
+
+## License
+This project is licensed under the GNU General Public License. See the LICENSE file for more details.
