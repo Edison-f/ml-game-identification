@@ -21,7 +21,7 @@ For higher quality screenshots, I will self-capture data from my own game librar
 ## Model Plans
 
 ### Edison
-Likely CNN, but maybe a new model introduced in class idk.
+Likely something close to being a CNN will be used, since it doesn't seem like there are any more classification models being used in class, with RNNs being the exception, though they might not be applicable. Additionally, if possible and if time permits, I will try to create a tool that automatically tries permutations on the model to create an optimal model.
 
 
 ### Angie
