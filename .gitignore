@@ -221,4 +221,5 @@ cs171/
 
 #Dataset / Images 
 dataset/
+processing/input
 processing/output
