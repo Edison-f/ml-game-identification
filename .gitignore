@@ -223,3 +223,8 @@ cs171/
 dataset/
 processing/input
 processing/output
+input_images/
+*.zip
+
+# Model Weightss
+best
