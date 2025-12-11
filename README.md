@@ -48,6 +48,49 @@ I will build and evaluate a CNN using PyTorch. I'll test different optimizers (A
 | Week 14 | Write analysis notebook |
 | Week 15 | Finalize README, Model Card, and presentation slides |
 
+
+---
+
+## Future Work
+
+- Larger Models
+- More data
+- Pre-trained model integration
+- More genres
+- Better visualization utilities (HTML, Non-notebook Python Script, etc.)
+
+---
+
+## Requirements
+- The regular CS-171 suite of Python 3.12 packages should suffice:
+    - numpy
+    - matplotlib
+    - pytorch
+    - torchvision
+    - pandas
+    - netCDF4
+    - scipy
+    - scikit-learn
+    - jupyter
+    - jupyterlab
+    - ipykernel
+
+---
+
+## Data Access
+- Record your own footage or take your own screenshots, the processing/processing_edison.ipynb file should be relatively straightforward to use to normalize them
+
+### Data Structure
+
+- input_images | This is where you should place your test and train images
+    - test
+    - train
+- processing
+    - input
+        - images | Place images to be processed here, as well as images from video processing
+        - video | Place videos in here
+    - output
+
 ---
 
 ## License
